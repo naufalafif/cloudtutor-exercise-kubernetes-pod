@@ -1,0 +1,38 @@
+{
+  "title": "Pod",
+  "description": "Pelajari cara membuat dan mengelola Pod",
+  "time": "30 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Apa itu Pod",
+        "path": "step1.md",
+        "type": "markdown"
+      },
+      {
+        "title": "Menjalankan Pod",
+        "path": "step2.md",
+        "type": "markdown"
+      },
+      {
+        "title": "Struktur YAML Pod",
+        "path": "step3.md",
+        "type": "markdown"
+      }
+    ],
+    "intro": {
+      "content": "intro.md"
+    },
+    "finish": {
+      "content": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor"
+  },
+  "backend": {
+    "imageid": "kind-v2",
+    "init_env_file": "init_env.sh",
+    "open_ports": [80, 8000, 8080]
+  }
+}
